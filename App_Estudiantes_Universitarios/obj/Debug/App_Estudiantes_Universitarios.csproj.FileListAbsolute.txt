@@ -9,3 +9,13 @@ C:\Users\bonil\OneDrive\POO_2026\App_Estudiantes_Universitarios\App_Estudiantes_
 C:\Users\bonil\OneDrive\POO_2026\App_Estudiantes_Universitarios\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.exe
 C:\Users\bonil\OneDrive\POO_2026\App_Estudiantes_Universitarios\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.pdb
 C:\Users\bonil\OneDrive\POO_2026\App_Estudiantes_Universitarios\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.exe.config
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\bin\Debug\App_Estudiantes_Universitarios.exe.config
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\bin\Debug\App_Estudiantes_Universitarios.exe
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\bin\Debug\App_Estudiantes_Universitarios.pdb
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.csproj.AssemblyReference.cache
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.FrmGestionEstudiantil.resources
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.Properties.Resources.resources
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.csproj.GenerateResource.cache
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.csproj.CoreCompileInputs.cache
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.exe
+C:\Users\CarEM\Desktop\UDB\CICLO 02 2026\POO104\TEORICO\APP_Registro_Estudiantes\App_Estudiantes_Universitarios\obj\Debug\App_Estudiantes_Universitarios.pdb

@@ -44,11 +44,11 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.dgvEstudiantes = new System.Windows.Forms.DataGridView();
-			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.colNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.colCarnet = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.colCarrera = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.colPromedio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).BeginInit();
 			this.groupBox2.SuspendLayout();
@@ -107,6 +107,7 @@
 			this.btnMostrarEstudiantes.TabIndex = 11;
 			this.btnMostrarEstudiantes.Text = "Mostrar Todos los Estudiantes ";
 			this.btnMostrarEstudiantes.UseVisualStyleBackColor = false;
+			this.btnMostrarEstudiantes.Click += new System.EventHandler(this.btnMostrarEstudiantes_Click);
 			// 
 			// btnEstudiantesDestacados
 			// 
@@ -118,6 +119,7 @@
 			this.btnEstudiantesDestacados.TabIndex = 10;
 			this.btnEstudiantesDestacados.Text = "Mostrar Estudiantes Destacados";
 			this.btnEstudiantesDestacados.UseVisualStyleBackColor = false;
+			this.btnEstudiantesDestacados.Click += new System.EventHandler(this.btnEstudiantesDestacados_Click);
 			// 
 			// btnCalcularPromedio
 			// 
@@ -222,19 +224,9 @@
 			this.dgvEstudiantes.Name = "dgvEstudiantes";
 			this.dgvEstudiantes.RowHeadersWidth = 51;
 			this.dgvEstudiantes.RowTemplate.Height = 24;
+			this.dgvEstudiantes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.dgvEstudiantes.Size = new System.Drawing.Size(726, 779);
 			this.dgvEstudiantes.TabIndex = 9;
-			// 
-			// groupBox2
-			// 
-			this.groupBox2.Controls.Add(this.dgvEstudiantes);
-			this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.groupBox2.Location = new System.Drawing.Point(430, 32);
-			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(752, 838);
-			this.groupBox2.TabIndex = 14;
-			this.groupBox2.TabStop = false;
-			this.groupBox2.Text = "Lista Estudiantes";
 			// 
 			// colNombre
 			// 
@@ -265,6 +257,17 @@
 			this.colPromedio.MinimumWidth = 6;
 			this.colPromedio.Name = "colPromedio";
 			this.colPromedio.ReadOnly = true;
+			// 
+			// groupBox2
+			// 
+			this.groupBox2.Controls.Add(this.dgvEstudiantes);
+			this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.groupBox2.Location = new System.Drawing.Point(430, 32);
+			this.groupBox2.Name = "groupBox2";
+			this.groupBox2.Size = new System.Drawing.Size(752, 838);
+			this.groupBox2.TabIndex = 14;
+			this.groupBox2.TabStop = false;
+			this.groupBox2.Text = "Lista Estudiantes";
 			// 
 			// FrmGestionEstudiantil
 			// 
