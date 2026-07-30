@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|c:\\users\\bonil\\onedrive\\poo_2026\\app_estudiantes_universitarios\\app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|solutionrelative:app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|c:\\users\\bonil\\onedrive\\poo_2026\\app_estudiantes_universitarios\\app_estudiantes_universitarios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|solutionrelative:app_estudiantes_universitarios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|solutionrelative:app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|c:\\users\\bonil\\onedrive\\poo_2026\\app_estudiantes_universitarios\\app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|solutionrelative:app_estudiantes_universitarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\app_estudiantes_universitarios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F93A12BB-B4DF-49E0-9C6D-88F10AC5DC8F}|App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios.csproj|solutionrelative:app_estudiantes_universitarios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios\\Estudiante.cs",
               "RelativeDocumentMoniker": "App_Estudiantes_Universitarios\\Estudiante.cs",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "App_Estudiantes_Universitarios\\Estudiante.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T15:33:44.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-30T15:33:44.129Z"
             },
             {
               "$type": "Document",
@@ -49,14 +48,14 @@
               "RelativeDocumentMoniker": "App_Estudiantes_Universitarios\\Form1.cs",
               "ToolTip": "C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios\\Form1.cs",
               "RelativeToolTip": "App_Estudiantes_Universitarios\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwv5IAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-29T22:59:26.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\bonil\\OneDrive\\POO_2026\\App_Estudiantes_Universitarios\\App_Estudiantes_Universitarios\\Form1.cs",
               "RelativeDocumentMoniker": "App_Estudiantes_Universitarios\\Form1.cs",

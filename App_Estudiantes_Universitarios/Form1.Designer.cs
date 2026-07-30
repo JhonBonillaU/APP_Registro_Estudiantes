@@ -49,6 +49,7 @@
             this.colCarrera = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPromedio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -228,7 +229,7 @@
             this.dgvEstudiantes.RowHeadersWidth = 51;
             this.dgvEstudiantes.RowTemplate.Height = 24;
             this.dgvEstudiantes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEstudiantes.Size = new System.Drawing.Size(726, 779);
+            this.dgvEstudiantes.Size = new System.Drawing.Size(1056, 875);
             this.dgvEstudiantes.TabIndex = 9;
             this.dgvEstudiantes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEstudiantes_CellContentClick);
             // 
@@ -268,17 +269,30 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(430, 32);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(752, 838);
+            this.groupBox2.Size = new System.Drawing.Size(1097, 928);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Lista Estudiantes";
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(22, 876);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(367, 72);
+            this.btnSalir.TabIndex = 15;
+            this.btnSalir.Text = "Salir del Programa";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmGestionEstudiantil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1194, 891);
+            this.ClientSize = new System.Drawing.Size(1539, 976);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "FrmGestionEstudiantil";
@@ -314,6 +328,7 @@
 		private System.Windows.Forms.DataGridViewTextBoxColumn colCarnet;
 		private System.Windows.Forms.DataGridViewTextBoxColumn colCarrera;
 		private System.Windows.Forms.DataGridViewTextBoxColumn colPromedio;
-	}
+        private System.Windows.Forms.Button btnSalir;
+    }
 }
 

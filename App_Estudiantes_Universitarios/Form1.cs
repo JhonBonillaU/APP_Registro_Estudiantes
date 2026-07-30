@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace App_Estudiantes_Universitarios
@@ -56,7 +57,8 @@ namespace App_Estudiantes_Universitarios
 		//boton registrar estudiante
 		private void btnRegistrar_Click(object sender, EventArgs e)
 		{
-			if (string.IsNullOrWhiteSpace(txtboName.Text) ||
+            // Validar que todos los campos estén completos
+            if (string.IsNullOrWhiteSpace(txtboName.Text) ||
 				string.IsNullOrWhiteSpace(txtboCarnet.Text) ||
 				string.IsNullOrWhiteSpace(txtboCarrera.Text))
 			{
@@ -65,20 +67,31 @@ namespace App_Estudiantes_Universitarios
 				return;
 			}
 
-			if (!double.TryParse(txtboPromedio.Text, out double promedio))
+            // Validar que el promedio ingresado sea un número válido
+            if (!double.TryParse(txtboPromedio.Text, out double promedio))
 			{
 				MessageBox.Show("Por favor, ingrese un promedio válido (número).", "Promedio inválido",
 					MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				return;
-			} 
+			}
 
-			if (promedio < 0 || promedio > 10)
+            //Evaluando que el promedio ingresado sea valido entre 0 y 10
+            if (promedio < 0 || promedio > 10)
 			{
 				MessageBox.Show("Por favor, ingrese un promedio válido entre 0 y 10.", "Promedio inválido",
 					MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				return;
             }
 
+			// Evitar que se registren estudantes con el mismo carnet
+            if (lista.Any(est => est.Carnet.Equals(txtboCarnet.Text, StringComparison.OrdinalIgnoreCase)))
+            {
+                MessageBox.Show("El carnet ingresado ya está registrado. Por favor, ingrese un carnet único.", "Carnet duplicado",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+            }
+
+            // Crear un nuevo estudiante y agregarlo a la lista
             Estudiante nuevoEstudiante = new Estudiante(
 					txtboName.Text,
 					txtboCarnet.Text,
@@ -131,6 +144,12 @@ namespace App_Estudiantes_Universitarios
 
             // mostramos el resultado exacto tal cual sin aproximar
             txtboResultadoPromedio.Text = promedioGeneral.ToString("0.00");
+        }
+
+        // boton salir de la aplicacion
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+			Application.Exit();
         }
     }
 }
