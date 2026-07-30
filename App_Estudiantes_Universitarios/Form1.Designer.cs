@@ -81,6 +81,7 @@
             // 
             // txtboResultadoPromedio
             // 
+            this.txtboResultadoPromedio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtboResultadoPromedio.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboResultadoPromedio.Location = new System.Drawing.Point(254, 755);
             this.txtboResultadoPromedio.Name = "txtboResultadoPromedio";
@@ -105,7 +106,7 @@
             this.btnMostrarEstudiantes.Name = "btnMostrarEstudiantes";
             this.btnMostrarEstudiantes.Size = new System.Drawing.Size(367, 72);
             this.btnMostrarEstudiantes.TabIndex = 11;
-            this.btnMostrarEstudiantes.Text = "Mostrar Todos los Estudiantes ";
+            this.btnMostrarEstudiantes.Text = "Mostrar Estudiantes ";
             this.btnMostrarEstudiantes.UseVisualStyleBackColor = false;
             this.btnMostrarEstudiantes.Click += new System.EventHandler(this.btnMostrarEstudiantes_Click);
             // 
@@ -179,7 +180,7 @@
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(367, 72);
             this.btnRegistrar.TabIndex = 8;
-            this.btnRegistrar.Text = "Registrar Estudiantes";
+            this.btnRegistrar.Text = "Registrar Estudiante";
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
