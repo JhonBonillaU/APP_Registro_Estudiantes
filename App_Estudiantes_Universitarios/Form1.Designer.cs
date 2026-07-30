@@ -131,6 +131,7 @@
             this.btnCalcularPromedio.TabIndex = 9;
             this.btnCalcularPromedio.Text = "Calcular Promedio General";
             this.btnCalcularPromedio.UseVisualStyleBackColor = false;
+            this.btnCalcularPromedio.Click += new System.EventHandler(this.btnCalcularPromedio_Click);
             // 
             // txtboCarrera
             // 

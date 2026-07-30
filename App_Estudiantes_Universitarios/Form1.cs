@@ -103,5 +103,34 @@ namespace App_Estudiantes_Universitarios
 			txtboPromedio.Clear();
 			txtboName.Focus();
 		}
-	}
+
+        private void btnCalcularPromedio_Click(object sender, EventArgs e)
+        {
+            // validamos que la lista no este vacia para evitar error de division entre cero
+            if (lista.Count == 0)
+            {
+                MessageBox.Show("no hay estudiantes registrados para calcular el promedio.",
+                                "advertencia",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Warning);
+                return;
+            }
+
+            // acumulador para sumar todos los promedios
+            double sumaPromedios = 0;
+
+            // recorremos la lista de estudiantes
+            foreach (Estudiante est in lista)
+            {
+                // acumulamos el promedio de cada estudiante
+                sumaPromedios += est.Promedio;
+            }
+
+            // calculamos el promedio general
+            double promedioGeneral = sumaPromedios / lista.Count;
+
+            // mostramos el resultado exacto tal cual sin aproximar
+            txtboResultadoPromedio.Text = promedioGeneral.ToString("0.00");
+        }
+    }
 }
