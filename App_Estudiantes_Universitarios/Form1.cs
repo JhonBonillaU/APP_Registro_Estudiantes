@@ -21,31 +21,5 @@ namespace App_Estudiantes_Universitarios
             InitializeComponent();
         }
 
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmGestionEstudiantil_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRegistrar_Click(object sender, EventArgs e)
-        {
-           
-
-        }
-
-        private void btnMostrarEstudiantes_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void btnEstudiantesDestacados_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
