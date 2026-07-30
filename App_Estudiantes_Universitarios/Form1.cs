@@ -19,8 +19,9 @@ namespace App_Estudiantes_Universitarios
 		private void MostrarEstudiantes(List<Estudiante> listaMostrar)
 		{
 			dgvEstudiantes.Rows.Clear(); // evitamos duplicados al mostrar la lista
+            
 
-			foreach (Estudiante est in listaMostrar)
+            foreach (Estudiante est in listaMostrar)
 			{
 				dgvEstudiantes.Rows.Add(est.Nombre, est.Carnet, est.Carrera, est.Promedio); // agregamos los datos del estudiante
 			}
@@ -46,6 +47,61 @@ namespace App_Estudiantes_Universitarios
 			}
 			MostrarEstudiantes(destacados); // mostramos la lista de estudiantes destacados
 		}
-	}
 
+		private void dgvEstudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
+
+		//boton registrar estudiante
+		private void btnRegistrar_Click(object sender, EventArgs e)
+		{
+			if (string.IsNullOrWhiteSpace(txtboName.Text) ||
+				string.IsNullOrWhiteSpace(txtboCarnet.Text) ||
+				string.IsNullOrWhiteSpace(txtboCarrera.Text))
+			{
+				MessageBox.Show("Por favor, complete todos los campos antes de registrar un estudiante.", "Campos incompletos",
+					MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			if (!double.TryParse(txtboPromedio.Text, out double promedio))
+			{
+				MessageBox.Show("Por favor, ingrese un promedio válido (número).", "Promedio inválido",
+					MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			} 
+
+			if (promedio < 0 || promedio > 10)
+			{
+				MessageBox.Show("Por favor, ingrese un promedio válido entre 0 y 10.", "Promedio inválido",
+					MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+            }
+
+            Estudiante nuevoEstudiante = new Estudiante(
+					txtboName.Text,
+					txtboCarnet.Text,
+					txtboCarrera.Text,
+					promedio
+					);
+
+			lista.Add(nuevoEstudiante);
+
+			MostrarEstudiantes(lista);
+			LimpiarTextBox();
+
+        }
+
+
+        //Creando Metodo para limpiar los TextBox
+        private void LimpiarTextBox()
+		{
+			txtboName.Clear();
+			txtboCarnet.Clear();
+			txtboCarrera.Clear();
+			txtboPromedio.Clear();
+			txtboName.Focus();
+		}
+	}
 }
